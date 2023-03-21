@@ -58,6 +58,8 @@ with header:
 		url = 'To view the interactive live dashboard on powerbi service, click  [Dashboard](https://app.powerbi.com/view?r=eyJrIjoiOGYzOWQ0MTAtN2Q3NS00Mzg5LTgwMDEtNjM4NDhmYmZjYTgzIiwidCI6IjhlOTVjNGQxLWRiZmQtNGFmNS1iODA2LTIwMGJkZDY2ZDJjZSJ9)'
 		st.markdown(url,unsafe_allow_html=True)
 
+		urlp = 'To view my portfolio and contact me, please click  [Portfolio](https://letters-of-michael.github.io/Oluwaseyi-Michael.github.io/)'
+		st.markdown(urlp,unsafe_allow_html=True)
 		
 	with copywright:
 		st.text('By Oluwaseyi Michael')
